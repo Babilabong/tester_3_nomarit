@@ -32,3 +32,4 @@ if __name__ == '__main__':
     x_interpolate = 2  # The x-value where you want to interpolate
     y_interpolate = lagrange_interpolation(x_data, y_data, x_interpolate)
     print(bcolors.OKBLUE, "\nInterpolated value at x =", x_interpolate, "is y =", y_interpolate, bcolors.ENDC)
+    print("https://github.com/Babilabong/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meril Hasid 324569714\nstudent:Almog Babila 209477678")
