@@ -53,15 +53,13 @@ def simpsons_rule(f, a, b, n):
 
 if __name__ == '__main__':
     f = lambda x: math.e ** (x ** 2)
-    g = 1/(2+(x**4))
+    g = ((2*(x**2))+cos(2*(math.e**(-2*x))))/(2*(x**3)+(x**2)-6)
     n = 4
-    a = 0
-    b = 1
+    a = 3.8
+    b = 4.5
 
     error = simpson_max_error(g,b,a,b,n)
-    print(error)
-    if(error>0.001):
-        print("max error in Simpson's is: ",error)
+    print("max error in Simpson's is: ",error)
 
     print( f" Division into n={n} sections ")
     integral = simpsons_rule(g, a, b, n)

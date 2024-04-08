@@ -21,11 +21,18 @@ def polynomialInterpolation(table_points, x):
 
 if __name__ == '__main__':
 
-    table_points = [(0, 0), (1, 0.8415), (2, 0.9093), (3, 0.1411), (4, -0.7568), (5, -0.9589), (6, -0.2794)]
-    x = 2.5
+    table_points = [(1.2, 3.5095), (1.3, 3.6984), (1.4, 3.9043), (1.5, 4.1293), (1.6, 4.3756)]
+    x = 1.35
     print(bcolors.OKBLUE, "----------------- Interpolation & Extrapolation Methods -----------------\n", bcolors.ENDC)
     print(bcolors.OKBLUE, "Table Points: ", bcolors.ENDC, table_points)
     print(bcolors.OKBLUE, "Finding an approximation to the point: ", bcolors.ENDC, x,'\n')
     polynomialInterpolation(table_points, x)
     print(bcolors.OKBLUE, "\n---------------------------------------------------------------------------\n", bcolors.ENDC)
+    x = 1.65
+    print(bcolors.OKBLUE, "----------------- Interpolation & Extrapolation Methods -----------------\n", bcolors.ENDC)
+    print(bcolors.OKBLUE, "Table Points: ", bcolors.ENDC, table_points)
+    print(bcolors.OKBLUE, "Finding an approximation to the point: ", bcolors.ENDC, x, '\n')
+    polynomialInterpolation(table_points, x)
+    print(bcolors.OKBLUE, "\n---------------------------------------------------------------------------\n",
+          bcolors.ENDC)
     print("https://github.com/Babilabong/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meril Hasid 324569714\nstudent:Almog Babila 209477678")
