@@ -39,12 +39,12 @@ def romberg_integration(f, a, b, n):
 
 # Example function to integrate
 def example_function(x):
-    return (3*(x**2)-sin((x**4)+(-1*x)+2))/(x**2)
+    return ((2*(x**2))+cos(2*(math.e**(-2*x))))/(2*(x**3)+(x**2)-6)
 
 # Example usage
-a = -3.1  # Lower limit
-b = -1.4  # Upper limit
-n = 15  # Number of iterations
+a = 3.8  # Lower limit
+b = 4.5  # Upper limit
+n = 4  # Number of iterations
 approximation = romberg_integration(example_function, a, b, n)
 print("Approximation of integral:", approximation)
 print("https://github.com/Babilabong/tester_3_nomarit\ngroup:Almog Babila 209477678, Hai karmi 207265678, Yagel Batito 318271863, Meril Hasid 324569714\nstudent:Almog Babila 209477678")
